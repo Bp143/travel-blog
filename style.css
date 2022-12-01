@@ -4,7 +4,7 @@
   padding: 0;
 }
 .global-msg {
-  background: blue;
+  background: lightblue;
 }
 .container {
   width: 80%;
@@ -35,7 +35,7 @@
 }
 .hero {
   min-height: 80vh;
-  background-image: url(image/images.jpeg);
+  background-image: url(image/biplop.jpeg);
   background-repeat: none;
   background-size: cover;
   background-position: center;
@@ -55,4 +55,91 @@
 
 .global-content i {
   color: white;
+}
+
+.post {
+  margin-top: 32px;
+  /* background: rgb(214, 207, 208); */
+  display: flex;
+}
+.post-content {
+  width: 66%;
+  margin-right: 60px;
+}
+.side-links {
+  width: 34%;
+  margin-top: 30px;
+}
+
+.country {
+  background-color: gray;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.date {
+  margin-top: 30px;
+  background-color: gray;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+article {
+  display: flex;
+  margin-top: 32px;
+}
+
+.art-img {
+  width: 400px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+}
+.card-section {
+  margin-top: 40px;
+  background-color: rgb(154, 147, 216);
+  padding: 20px 0px;
+}
+.card-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+  min-height: 300px;
+  background: white;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  box-shadow: -5px 5px 10px 5px;
+}
+.card img {
+  border-radius: 5px 0;
+}
+.btn-card {
+  background: orangered;
+  font-size: 18px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+/* Subscription section */
+.subscription {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  background: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  min-height: 30px;
+  margin-top: 32px;
 }
